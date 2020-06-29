@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    ["module-resolver", {
+      "alias": {
+        "common": "./packages/common/" 
+      }
+    }],
+    [
+      "babel-plugin-styled-components",
+      {
+        "ssr": false,
+        "minify": false,
+        "transpileTemplateLiterals": false,
+        "pure": true
+      }
+    ]
+  ]
+}
