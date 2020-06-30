@@ -1,7 +1,6 @@
 {
   "packages": [
-    "packages/common", 
-    "packages/next-landing",
+    "packages/common",
     "packages/gatsby-landing" 
   ],
   "version": "independent",
