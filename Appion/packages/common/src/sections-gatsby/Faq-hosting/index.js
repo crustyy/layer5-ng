@@ -16,7 +16,7 @@ import {
 
 import { IoIosArrowForward, IoIosArrowDown } from "react-icons/io";
 
-import FaqImage from "common/src/assets/images/hosting/faq.png";
+import FaqImage from "common/src/assets/images/hosting/hosting/faq.png";
 import particle1 from "common/src/assets/images/app/particle/07.png";
 import particle2 from "common/src/assets/images/app/particle/08.png";
 

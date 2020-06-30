@@ -9,8 +9,8 @@ import ParticleComponent from "common/src/reusecore/Particle";
 import { FaPlay, FaDownload } from "react-icons/fa";
 
 import BannerSectionWrapper from "./banner.style";
-import imgHero1 from "common/src/assets/images/hosting/banner/01.png";
-import imgHero2 from "common/src/assets/images/hosting/banner/02.png";
+import imgHero1 from "common/src/assets/images/hosting/hosting/banner/01.png";
+import imgHero2 from "common/src/assets/images/hosting/hosting/banner/02.png";
 
 const BannerHosting= () => {
   return (
