@@ -3,9 +3,9 @@ import React from "react";
 import { Container, Row, Col } from "common/src/reusecore/Layout";
 import SectionTitle from "common/src/reusecore/SectionTitle";
 
-import Icon1 from "common/src/assets/images/hosting/features/01.svg";
-import Icon2 from "common/src/assets/images/hosting/features/02.svg";
-import Icon3 from "common/src/assets/images/hosting/features/03.svg";
+import Icon1 from "common/src/assets/images/hosting/hosting/features/01.svg";
+import Icon2 from "common/src/assets/images/hosting/hosting/features/02.svg";
+import Icon3 from "common/src/assets/images/hosting/hosting/features/03.svg";
 
 import FeturesSectionWrapper from "./fetures.style";
 

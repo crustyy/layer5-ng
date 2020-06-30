@@ -6,8 +6,7 @@ import VintageBox from "common/src/reusecore/VintageBox";
 
 import CTASectionWrapper from "./CTASection.style";
 
-import image1 from "common/src/assets/images/hosting/CTA/01.png";
-import Particle1 from "common/src/assets/images/hosting/vintage/01.png";
+import image1 from "common/src/assets/images/hosting/hosting/CTA/01.png";
 
 const CTAHosting = () => {
   return (

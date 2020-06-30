@@ -6,7 +6,7 @@ import SectionTitle from "common/src/reusecore/SectionTitle";
 import Button from "common/src/reusecore/Button";
 import VintageBox from "common/src/reusecore/VintageBox";
 
-import imgAbout from "common/src/assets/images/hosting/about.png";
+import imgAbout from "common/src/assets/images/hosting/hosting/about.png";
 import particle1 from "common/src/assets/images/app/particle/05.png";
 import particle2 from "common/src/assets/images/app/particle/06.png";
 
