@@ -5,7 +5,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 import { Container, Row, Col } from "common/src/reusecore/Layout";
 
 import PageHeader from "common/src/reusecore/PageHeader";
-import Sidebar from "common/src/sections-gatsby/Blog-sidebar";
+import Sidebar from "common/src/sections/Blog-sidebar";
 
 import blogThumb1 from "common/src/assets/images/blog/post/blog-post-1.png";
 import blogThumb2 from "common/src/assets/images/blog/post/blog-post-2.png";

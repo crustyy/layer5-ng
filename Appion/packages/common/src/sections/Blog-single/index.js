@@ -12,7 +12,7 @@ import { Container, Row, Col } from "common/src/reusecore/Layout";
 import VintageBox from "common/src/reusecore/VintageBox";
 import Button from "common/src/reusecore/Button";
 import PageHeader from "common/src/reusecore/PageHeader";
-import Sidebar from "common/src/sections-gatsby/Blog-sidebar";
+import Sidebar from "common/src/sections/Blog-sidebar";
 
 import BlogThumb from "common/src/assets/images/blog/post/blog-post-5.png";
 
