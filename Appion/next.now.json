@@ -1,8 +1,0 @@
-{
-	"version": 2,
-	"builds": [
-		{ "src": "packages/next-landing/next.config.js",
-		  "use": "@now/next" 
-		}
-	  ]
-}
