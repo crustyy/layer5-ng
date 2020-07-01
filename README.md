@@ -10,8 +10,6 @@ Before building the site, ensure that you have the following dependencies instal
 ### Dependencies:
 
 - [Nodejs](https://nodejs.org/en/): e.g., `brew install node`
-- [Yarn](https://classic.yarnpkg.com/en/docs/install/): e.g., `brew install yarn`
-- [Lerna](https://lerna.js.org): e.g., `npm install --global lerna`
 - [gatsby cli](https://www.gatsbyjs.org/tutorial/part-zero/#using-the-gatsby-cli): e.g., `npm install -g gatsby-cli`
 - [gatsby-dev-cli](https://www.gatsbyjs.org/contributing/setting-up-your-local-dev-environment/#gatsby-functional-changes) e.g., `yarn global add gatsby-dev-cli`
   - Be sure to run `npm install` after initial installation of `gatsby`.
@@ -20,5 +18,5 @@ Before building the site, ensure that you have the following dependencies instal
 
 From within the Appion directory, run the following:
 
-1. `yarn install`
-1. `yarn start`
+1. `npm install`
+1. `npm run start`
