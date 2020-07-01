@@ -4,21 +4,21 @@ import { ThemeProvider } from "styled-components";
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import Navigation from 'common/src/sections/Navigation';
-import Banner from 'common/src/sections/Banner-hosting';
-import About from 'common/src/sections/About-hosting';
-import Features from 'common/src/sections/Features-hosting';
-import CTAHosting from 'common/src/sections/CTA-hosting';
-import Faq from 'common/src/sections/Faq-hosting';
-import Counters from 'common/src/sections/Counters';
-import Pricing from 'common/src/sections/Pricing';
-import Testimonial from 'common/src/sections/Testimonial';
-import News from 'common/src/sections/News';
-import Contact from 'common/src/sections/Contact';
-import Footer from 'common/src/sections/Footer';
+import Navigation from '../sections/Navigation';
+import Banner from '../sections/Banner-hosting';
+import About from '../sections/About-hosting';
+import Features from '../sections/Features-hosting';
+import CTAHosting from '../sections/CTA-hosting';
+import Faq from '../sections/Faq-hosting';
+import Counters from '../sections/Counters';
+import Pricing from '../sections/Pricing';
+import Testimonial from '../sections/Testimonial';
+import News from '../sections/News';
+import Contact from '../sections/Contact';
+import Footer from '../sections/Footer';
 
-import { GlobalStyle } from "common/src/sections/app.style";
-import theme from "common/src/theme/hosting/themeStyles";
+import { GlobalStyle } from "../sections/app.style";
+import theme from "../theme/hosting/themeStyles";
 
 const HostingPage = () => (
   <ThemeProvider theme={theme}>

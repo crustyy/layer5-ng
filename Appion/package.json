@@ -10,7 +10,6 @@
 		"url": ""
 	},
   "workspaces": [
-    "packages/common",
     "packages/gatsby-landing"
   ],
   "devDependencies": {
@@ -34,7 +33,7 @@
     "next-firebase-serve": "cross-env NODE_ENV=production firebase serve",
     "next-prefirebase-deploy": "yarn run build-public && yarn run build-funcs && yarn workspace next-landing run build && yarn run copy-deps",
     "next-firebase-deploy": "cross-env NODE_ENV=production firebase deploy",
-    "build-public": "cpx \"packages/common/src/assets/**/*.*\" \"dist/public/static\" -C && cpx \"public/**/*.*\" \"dist/public\" -C",
+    "build-public": "cpx \"packages/src/assets/**/*.*\" \"dist/public/static\" -C && cpx \"public/**/*.*\" \"dist/public\" -C",
     "build-funcs": "babel \"packages/functions\" --out-dir \"dist/functions\"",
     "copy-deps": "cpx \"packages/next-landing/*{package.json,package-lock.json,yarn.lock}\" \"dist/functions\" -C",
     "install-deps": "cd \"dist/functions\" && yarn",

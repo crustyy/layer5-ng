@@ -1,10 +1,5 @@
 {
   "plugins": [
-    ["module-resolver", {
-      "alias": {
-        "common": "./packages/common/" 
-      }
-    }],
     [
       "babel-plugin-styled-components",
       {
