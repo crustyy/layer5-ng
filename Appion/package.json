@@ -9,6 +9,15 @@
     "type": "git",
     "url": ""
   },
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean && rimraf node_modules",
+    "develop": "gatsby develop",
+    "dev": "npm run develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve"
+  },
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
     "gatsby": "^2.19.32",
@@ -45,24 +54,5 @@
     "firebase-tools": "^7.14.0",
     "prettier": "^1.19.1",
     "rimraf": "^3.0.2"
-  },
-  "scripts": {
-    "build": "gatsby build",
-    "clean": "gatsby clean && rimraf node_modules",
-    "develop": "gatsby develop",
-    "dev": "npm run develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "next-prefirebase-deploy": "yarn run build-public && yarn run build-funcs && yarn workspace next-landing run build && yarn run copy-deps",
-    "next-firebase-deploy": "cross-env NODE_ENV=production firebase deploy",
-    "build-public": "cpx \"packages/src/assets/**/*.*\" \"dist/public/static\" -C && cpx \"public/**/*.*\" \"dist/public\" -C",
-    "build-funcs": "babel \"packages/functions\" --out-dir \"dist/functions\"",
-    "copy-deps": "cpx \"packages/next-landing/*{package.json,package-lock.json,yarn.lock}\" \"dist/functions\" -C",
-    "install-deps": "cd \"dist/functions\" && yarn",
-    "pregatsby-firebase-serve": "rimraf dist && yarn run gatsby-build && cpx \"packages/gatsby-landing/public/**/*.*\" \"dist/public\" -C",
-    "gatsby-firebase-serve": "cross-env NODE_ENV=production firebase serve",
-    "pregatsby-firebase-deploy": "rimraf dist && yarn run gatsby-build && cpx \"packages/gatsby-landing/public/**/*.*\" \"dist/public\" -C",
-    "gatsby-firebase-deploy": "cross-env NODE_ENV=production firebase deploy"
   }
 }
