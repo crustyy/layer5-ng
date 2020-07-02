@@ -1,10 +1,5 @@
 {
   "plugins": [
-    ["module-resolver", {
-      "alias": {
-        "common": "./packages/common/" 
-      }
-    }],
     [
       "babel-plugin-styled-components",
       {
@@ -12,6 +7,17 @@
         "minify": false,
         "transpileTemplateLiterals": false,
         "pure": true
+      }
+    ],
+    "@babel/plugin-proposal-optional-chaining"
+  ],
+  "presets": [
+    [
+      "babel-preset-gatsby",
+      {
+        "targets": {
+          "browsers": [">0.25%", "not dead"]
+        }
       }
     ]
   ]
