@@ -135,7 +135,7 @@ blockquote {
         padding: 6px 18px;
         border-radius: 3px;
         background: #F0F0F0;
-        font: 400 13px/26px "Poppins", sans-serif; 
+        font: 400 13px/26px "Open Sans", sans-serif; 
         transition: all 0.3s linear;
         &:hover{
             background: ${props => props.theme.secondaryColor ? props.theme.secondaryColor : "#FB7B81"};

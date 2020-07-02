@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import imgHero from '../../assets/images/app/hero/hero.png';
+import imgHero from '../../assets/images/app/hero/forklift.svg';
 
 const BannerSectionWrapper = styled.section`
     padding: 190px 0 120px 0;

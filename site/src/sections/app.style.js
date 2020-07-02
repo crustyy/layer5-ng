@@ -5,7 +5,7 @@ import { createGlobalStyle } from 'styled-components';
 const GlobalStyle = createGlobalStyle`
 
 ::selection {
-    background: #333333;
+    background: #3c494f;
     color: #ffffff;
   }
 
@@ -38,7 +38,7 @@ body {
   line-height: 28px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: ${props => props.theme.textColor};
   overflow-x: hidden !important;
   font-weight: 400;
@@ -51,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: ${props => props.theme.headingColor}; 
     margin: 0;
 }

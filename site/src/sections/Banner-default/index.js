@@ -35,7 +35,7 @@ const BannerDefault = () => {
             <VintageBox right={true} vintageOne={true}>
               <Button className="banner-btn one">
                 <FaDownload className="icon-left" />
-                Download V1.4
+                Run Meshery
               </Button>
               <Button className="banner-btn two">
                 <FaPlay className="icon-left" /> Watch Now

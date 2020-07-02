@@ -3,16 +3,16 @@ const theme = {
   white: '#ffffff', 
   primaryColor: '#3c494f',
   primaryLightColor: '#EEE6FA',
-  primaryLightColorTwo: '#f8f5fd',
+  primaryLightColorTwo: '#00d3a9',
   secondaryColor: '#FB7B81', 
   secondaryLightColor: '#FFEBEC',
-  tetriaryColor: '#E281CE',
-  headingColor: '#2C0075', 
+  tetriaryColor: '#00d3a9',
+  headingColor: '#111111', 
   textColor: '#7A848E',  
   shadowColor: 'rgba(0, 0, 0, 0.05)',
   shadowLightColor: '#E6E6E6',
-  menuColor: '#1D316C',
-  menuHoverColor: '#FB7B81'
+  menuColor: '#3c494f',
+  menuHoverColor: '#00b39f'
 };
 export default theme;
 

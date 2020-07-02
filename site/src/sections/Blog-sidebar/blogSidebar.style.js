@@ -78,7 +78,7 @@ const BlogSideBarWrapper = styled.div`
                 font-size: 14px;
                 color: ${props => props.theme.textColor ? props.theme.textColor : "#7A848E"};
                 a{
-                    font: 400 13px/20px "Poppins", sans-serif;
+                    font: 400 13px/20px "Open Sans", sans-serif;
                     color: ${props => props.theme.textColor ? props.theme.textColor : "#7A848E"};
                     &:hover{
                         color: ${props => props.theme.textColor ? props.theme.textColor : "#7A848E"};
@@ -116,7 +116,7 @@ const BlogSideBarWrapper = styled.div`
                         display: flex;
                         line-height: 25px;
                         justify-content: space-between;
-                        font: 400 16px/35px "Poppins", sans-serif;
+                        font: 400 16px/35px "Open Sans", sans-serif;
                         em{font-style: normal;}
                         span{
                             border-bottom: 1px solid transparent;
@@ -145,7 +145,7 @@ const BlogSideBarWrapper = styled.div`
                         padding: 6px 18px;
                         border-radius: 3px;
                         background: #F0F0F0;
-                        font: 400 13px/26px "Poppins", sans-serif; 
+                        font: 400 13px/26px "Open Sans", sans-serif; 
                         transition: all 0.3s linear;
                         &:hover{
                             background: ${props => props.theme.secondaryColor ? props.theme.secondaryColor : "#FB7B81"};

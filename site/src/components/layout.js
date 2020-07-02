@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
         <title>{`Layer5 - The Service Mesh Company`}</title>
         <link rel="shortcut icon" type="image/x-icon" href={FavIcon} />
         <link
-          href='https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap'
+          href='https://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700,800&display=swap'
           rel='stylesheet'
         />
         <link

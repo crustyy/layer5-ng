@@ -23,6 +23,11 @@ const Data = {
         ]
       },
       {
+        name: "Projects",
+        path: "/#projects",
+        offset: "-50"
+      },
+      {
         name: "Features",
         path: "/#features",
         offset: "-50"
