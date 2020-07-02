@@ -26,7 +26,7 @@ const IndexPage = () => (
   <ThemeProvider theme={theme}> 
     <GlobalStyle />
      <Layout>
-      <SEO title="Appion Gatsby Home" />
+     {/* <SEO title="Home" /> */}
       <Navigation />
       <Banner />
       <About />

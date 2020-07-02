@@ -10,7 +10,7 @@ import integrationImage1 from "../../assets/images/app/integrations/integration-
 import integrationImage2 from "../../assets/images/app/integrations/integration-2.png";
 import integrationImage3 from "../../assets/images/app/integrations/integration-3.png";
 import integrationImage4 from "../../assets/images/app/integrations/integration-4.png";
-import Icon from "../../assets/images/app/integrations/arrow.png";
+import Icon from "../../assets/images/app/integrations/arrow.svg";
 
 import IntegrationItemWrapper from "./integrationSection.style";
 

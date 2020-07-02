@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import { FaBars } from "react-icons/fa";
 
 import { Container } from "../../reusecore/Layout";
-import logo from "../../assets/images/app/logo.png";
+import logo from "../../assets/images/app/layer5.svg";
 
 import Data from "./utility/data.js";
 import ScrollspyMenu from "./utility/ScrollspyMenu.js";

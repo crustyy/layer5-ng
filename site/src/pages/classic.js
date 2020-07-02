@@ -26,7 +26,7 @@ const ClassicPage = () => (
   <ThemeProvider theme={theme}>
     <GlobalStyle />
     <Layout>
-      <SEO title="Appion Gatsby Home" />
+    <SEO title="Layer5 | The Service Mesh Company" />
       <Navigation />
       <BannerClassic />
       <AboutClassic />
