@@ -16,7 +16,7 @@ Before building the site, ensure that you have the following dependencies instal
 
 ### Building the site
 
-From within the Appion directory, run the following:
+From within the `site` directory, run the following:
 
 1. `npm install`
 1. `npm run start`

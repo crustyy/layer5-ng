@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Appion react gatsby nextjs landing`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `Devscorn`,
+    title: `Layer5 - The Service Mesh Company`,
+    description: `Making service meshes available to the rest of us. Open source software for management of service meshes. Allowing developers to focus on business logic, not infrastructure concerns. Empowering operators to confidentally run modern infrastructure.`,
+    author: `Layer5 Authors`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -33,8 +33,8 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#3c494f`,
+        theme_color: `#00b39f`,
         display: `minimal-ui`,
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },

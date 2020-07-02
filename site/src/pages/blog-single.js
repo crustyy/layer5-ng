@@ -15,7 +15,7 @@ const BlogSinglePage = () => (
   <ThemeProvider theme={theme}>
     <Layout>
       <GlobalStyle />
-      <SEO title="Appion Gatsby Home" />
+      <SEO title="Blog | Layer5 - The Service Mesh Company" />
       <Navigation />
       <BlogSingle />
       <Footer />
