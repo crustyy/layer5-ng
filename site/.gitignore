@@ -60,7 +60,7 @@ typings/
 .cache/
 public
 
-# Mac fifles
+# Mac files
 .DS_Store
 
 # Yarn
