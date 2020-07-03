@@ -13,7 +13,7 @@ jobs:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
       uses: pullreminders/slack-action@master
       with:
-        args: '{\"channel\":\"CSK7N9TGX\",\"text\":\"Someone just starred Meshery! (https://github.com/layer5io/meshery/stargazers) Total stars: ${{env.STARS}}\"}'
+        args: '{\"channel\":\"CSK7N9TGX\",\"text\":\"Someone just starred Layer5-ng! (https://github.com/layer5io/layer5-ng/stargazers) Total stars: ${{env.STARS}}\"}'
         # command: echo "Now at ${{env.STARS}} stars."
 # name: Slack Notify on Star
 # on: watch
