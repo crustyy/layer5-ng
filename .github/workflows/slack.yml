@@ -19,17 +19,16 @@ name: Slack Notify on Star
 on: watch
 jobs:
   slackNotification:
-  name: Notify Slack on star
+    name: Count stars
     runs-on: ubuntu-latest
     steps:
     - name: Get current star count
       run: |
         echo ::set-env name=STARS::$(curl --silent 'https://api.github.com/repos/layer5io/meshery' -H 'Accept: application/vnd.github.preview' | jq '.watchers_count')
-    name: Slack Notification
+    - name: Slack Notification
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-    - uses: actions/checkout@v2
-      uses: rtCamp/action-slack-notify@v2.0.2
+    - uses: rtCamp/action-slack-notify@v2.0.2
       with:
         args: '{\"channel\":\"CSK7N9TGX\",\"text\":\"Someone just starred Meshery! (https://github.com/layer5io/meshery/stargazers) Total stars: ${{env.STARS}}\"}'
         command: echo "Now at ${{env.STARS}} stars."
