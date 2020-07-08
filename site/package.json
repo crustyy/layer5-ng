@@ -12,7 +12,7 @@
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean && rimraf node_modules",
-    "develop": "gatsby develop",
+    "develop": "env-cmd -f .env.development gatsby develop",
     "dev": "npm run develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
@@ -51,6 +51,7 @@
     "babel-plugin-module-resolver": "^3.2.0",
     "cpx": "^1.5.0",
     "cross-env": "^7.0.0",
+    "env-cmd": "^10.1.0",
     "prettier": "^1.19.1",
     "rimraf": "^3.0.2"
   }
