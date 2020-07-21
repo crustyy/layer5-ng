@@ -16,7 +16,9 @@
     "dev": "npm run develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "lint": "eslint ./src --fix",
+    "pretest": "eslint --ignore-path .gitignore ."
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
@@ -52,6 +54,9 @@
     "cpx": "^1.5.0",
     "cross-env": "^7.0.0",
     "env-cmd": "^10.1.0",
+    "eslint": "^7.4.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.20.3",
     "prettier": "^1.19.1",
     "rimraf": "^3.0.2"
   }

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const NavigationWrap =  styled.header`
     background: transparent;
@@ -65,7 +65,7 @@ const NavigationWrap =  styled.header`
               display: block;
               padding: 5px 15px;
               &:hover{
-                color: ${props => props.theme.menuHoverColor ? props.theme.menuHoverColor : '#FB7B81'} !important;
+                color: ${props => props.theme.menuHoverColor ? props.theme.menuHoverColor : "#FB7B81"} !important;
               }
               &:before{
                 content: none;
@@ -76,7 +76,7 @@ const NavigationWrap =  styled.header`
       
       a, .nav-active{
         position: relative;
-        color: ${props => props.theme.menuColor ? props.theme.menuColor : '#1D316C'};
+        color: ${props => props.theme.menuColor ? props.theme.menuColor : "#1D316C"};
         font-size: 15px;
         transition: 450ms all;
         padding-bottom: 5px;
@@ -89,11 +89,11 @@ const NavigationWrap =  styled.header`
           width: 20px;
           height: 1px;
           opacity: 0;
-          background: ${props => props.theme.menuHoverColor ? props.theme.menuHoverColor : '#FB7B81'};
+          background: ${props => props.theme.menuHoverColor ? props.theme.menuHoverColor : "#FB7B81"};
           transition: 450ms all;
         }
         &:hover{
-          color: ${props => props.theme.menuHoverColor ? props.theme.menuHoverColor : '#FB7B81'};
+          color: ${props => props.theme.menuHoverColor ? props.theme.menuHoverColor : "#FB7B81"};
           &:before{
             opacity: 1;
           }
@@ -120,7 +120,7 @@ const NavigationWrap =  styled.header`
         a{
           color: #1D316C;
           &:hover{
-            color: ${props => props.theme.menuHoverColor ? props.theme.menuHoverColor : '#FB7B81'};
+            color: ${props => props.theme.menuHoverColor ? props.theme.menuHoverColor : "#FB7B81"};
           }
         }
       }
@@ -227,6 +227,6 @@ const NavigationWrap =  styled.header`
     }
   }
 
-`
+`;
 
 export default NavigationWrap;
